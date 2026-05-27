@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  <!-- Градиент -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"></stop>
+      <stop offset="100%" stop-color="#6366f1"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Фон (тёмный как у тебя) -->
+  <rect width="100" height="100" rx="20" fill="#1f2a37"></rect>
+
+  <!-- Буква A -->
+  <text x="50%" y="65%" text-anchor="middle" fill="url(#grad)" font-size="60" font-family="Arial" font-weight="bold">
+    A
+  </text>
+
+</svg>
